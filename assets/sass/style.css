@@ -60,7 +60,6 @@ body #home .form, * #home .form {
   border-radius: 12px;
   padding: 20px;
   margin-right: 40px;
-  margin-top: -40px;
 }
 body #home .form p, * #home .form p {
   font-size: 20px;
@@ -102,6 +101,230 @@ body #home .form form a, * #home .form form a {
   color: #fff;
   text-align: center;
   font-weight: 600;
+}
+body #build, * #build {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body #build .container, * #build .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body #build .container h3, * #build .container h3 {
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 32px;
+}
+body #build .container p, * #build .container p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+body #build .row, * #build .row {
+  margin-top: 25px;
+}
+body #build .row .col-12, * #build .row .col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body #build .row .col-12 .card, * #build .row .col-12 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+body #build .row .col-12 .card i, * #build .row .col-12 .card i {
+  padding: 20px 22px;
+  margin: 14px 0;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 26px;
+  color: #fff;
+  background-image: linear-gradient(90deg, #5b2ec7, #a863e6);
+  transition: all 800ms;
+}
+body #build .row .col-12 .card a, * #build .row .col-12 .card a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 10px 0;
+  transition: all 800ms;
+}
+body #build .row .col-12 .card a:hover, * #build .row .col-12 .card a:hover {
+  color: #5b2ec7;
+}
+body #build .row .col-12 .card a:hover i, * #build .row .col-12 .card a:hover i {
+  color: #5b2ec7;
+}
+body #build .row .col-12 .card p, * #build .row .col-12 .card p {
+  color: #9092a6;
+  font-size: 15px;
+  line-height: 22px;
+}
+body #build .row .col-12 .card .button i, * #build .row .col-12 .card .button i {
+  padding: 0;
+  background: none;
+  color: #000;
+  font-size: 14px;
+}
+body #unlimited, * #unlimited {
+  width: 100%;
+  background-color: #f2f6fa;
+  padding: 60px 0;
+  margin: 30px 0;
+}
+body #unlimited .container .row .col-12, * #unlimited .container .row .col-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body #unlimited .container .row .col-12 .image, * #unlimited .container .row .col-12 .image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #unlimited .container .row .col-12 .image i, * #unlimited .container .row .col-12 .image i {
+  position: absolute;
+  padding: 24px 26px 24px 28px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #5b2ec7;
+  border: 3px solid #fff;
+  font-size: 1.3rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+body #unlimited .container .row .col-12 .image i:hover, * #unlimited .container .row .col-12 .image i:hover {
+  background-color: transparent;
+  border-color: #5b2ec7;
+  color: #fff;
+}
+body #unlimited .container .row .col-12 p, * #unlimited .container .row .col-12 p {
+  color: #9092a6;
+  font-size: 18px;
+}
+body #unlimited .container .row .col-12 .card, * #unlimited .container .row .col-12 .card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  width: 70%;
+}
+body #unlimited .container .row .col-12 .card i, * #unlimited .container .row .col-12 .card i {
+  color: #919395;
+  font-size: 34px;
+  margin-top: 15px;
+}
+body #unlimited .container .row .col-12 .card p, * #unlimited .container .row .col-12 .card p {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 17px 0;
+}
+body #unlimited .container .row .col-12 .card a, * #unlimited .container .row .col-12 .card a {
+  display: inline-block;
+  padding: 10px 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  background-image: linear-gradient(70deg, #5b2ec7, #a863e6);
+}
+body #unlimited .container .row .col-12 h3, * #unlimited .container .row .col-12 h3 {
+  font-size: 34px;
+  font-weight: 700;
+}
+body #unlimited .container .row .col-12 p, * #unlimited .container .row .col-12 p {
+  line-height: 30px;
+}
+body #unlimited .container .row #bg-none-card, * #unlimited .container .row #bg-none-card {
+  margin-top: 30px;
+  background-color: transparent !important;
+  border: none !important;
+  width: 78%;
+}
+body #unlimited .container .row #bg-none-card .left, * #unlimited .container .row #bg-none-card .left {
+  margin-right: 20px;
+}
+body #unlimited .container .row #bg-none-card .left i, * #unlimited .container .row #bg-none-card .left i {
+  color: #a863e6;
+}
+body #unlimited .container .row #btn, * #unlimited .container .row #btn {
+  display: inline-block;
+  text-align: center;
+  color: #5b2ec7;
+  text-decoration: none;
+  border: 1px solid #5b2ec7;
+  text-align: center;
+  width: 35%;
+  padding: 10px 2px;
+  font-weight: 600;
+  transition: all 0.6s;
+}
+body #unlimited .container .row #btn:hover, * #unlimited .container .row #btn:hover {
+  background-image: linear-gradient(70deg, #5b2ec7, #a863e6);
+  color: #fff;
+}
+body #subscribe, * #subscribe {
+  width: 100%;
+  height: 65vh;
+  background-image: linear-gradient(90deg, #5b2ec7, #a863e6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body #subscribe .container, * #subscribe .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+body #subscribe .container h2, * #subscribe .container h2 {
+  text-align: center;
+  color: #fff;
+}
+body #subscribe .container p, * #subscribe .container p {
+  color: #bea4eb;
+  font-size: 18px;
+  text-align: center;
+  margin: 40px 0;
+}
+body #subscribe .container form, * #subscribe .container form {
+  width: 55%;
+  border-radius: 48px 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5daf7;
+  padding: 2px 2px 2px 24px;
+}
+body #subscribe .container form input, * #subscribe .container form input {
+  width: 75%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+body #subscribe .container form button, * #subscribe .container form button {
+  width: 25%;
+  background-image: linear-gradient(90deg, #5b2ec7, #a863e6);
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 32px 32px;
+  font-size: 18px;
+  color: #fff;
 }
 
 @media (max-width: 992px) {
